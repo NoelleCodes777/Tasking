@@ -1,0 +1,1112 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+} */
+/* .logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+/* *{
+  margin: auto 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+   */
+.nav{
+
+  display:flex;
+ justify-content: center;
+ margin: 0;
+ padding: 0;
+}
+.nav ul  {
+  display:flex;
+  padding:0;
+  gap:20px;
+  justify-content: center;
+ 
+  
+}
+
+.nav ul li{
+list-style: none;
+text-decoration: none;
+
+}
+.nav ul li a {
+text-decoration: none;
+
+}
+.logo{
+  width: 50px;
+  height:50px;
+  margin-right: 60%;
+
+
+
+}
+.Hero{
+
+  margin-left: 5%;
+  display: flex;
+
+}
+
+.Hero-left{
+  flex:1;
+  width: 600px;
+  backface-visibility: hidden;
+}
+.Hero-right{
+  flex:1;
+  width:600px;
+
+}
+.Hero-left >  h1{
+font-size: 90px;
+
+}
+.btnClass{
+
+  gap:20px;
+}
+.Hero-left >  p{
+color: grey;
+margin-top: 20px;
+}
+
+/* .Hero-right */
+.img-container{
+  height: 500px;
+  width:500px;
+  background-color:rgb(183, 190, 194);
+  margin-top: 100px;
+  margin-left: 8%;
+  border-radius: 100%;
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  position:relative;
+}
+.back{
+  width: 550px;
+  height:600px;
+  position:absolute;
+   bottom: 10px;
+   
+ 
+
+}
+.MW-container{
+  height: 180px;
+  width: 230px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: -30px;
+  left: -40px;
+  box-shadow: 0 10px 20px rgb(35, 37, 37);
+}
+.others{
+  width:100%;
+  height: 60px;
+  padding: 10px;
+
+}
+.profile-1{
+  height: 50px;
+  width:50px;
+  border-radius: 100%;
+}
+.profile-2{
+  height: 50px;
+  width:50px;
+  border-radius: 100%;
+}
+.profile-3{
+  height: 50px;
+  width:50px;
+  border-radius: 100%;
+}
+.others h3{
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 10px; 
+  font-size: 13px; 
+}
+.KA-container{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  padding: 10px;
+  position: relative;
+  border-radius: 10px;
+  top: 150px;
+  left:200px;
+  box-shadow: 0 10px 20px rgb(35, 37, 37);
+}
+.KA-containerB{
+  display: flex;
+  width: 99%;
+}
+
+.KA-containerC{
+  position: relative;
+
+}
+.KA-containerC h1{
+  /* font-family: "Be Vietnam Pro", sans-serif; */
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.KA-container p{
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 12px;
+  margin-bottom: 10px;
+  line-height: 15px;
+  
+}
+.KA-container h5{
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 12px;
+  color: #7777779a;
+  position: absolute;
+  top: 60px;
+  right:70px;
+
+}
+.profile-4{
+  width: 50px;
+  height:50px;
+  border-radius: 100%;
+}
+.fa-star{
+  color:rgb(247, 217, 72);
+  margin-bottom: 10px;
+  
+}
+.feature{
+  width:100%;
+  background-color:rgb(231, 247, 247);
+  height:600px;
+
+}
+.feature h3{
+  color: blue;
+  text-align: center;
+  font-size:25px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  padding-top: 80px;
+
+}
+
+.OST {
+  font-size: 40px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  /* margin-left: 510px; */
+  text-align: center;
+  color: #000;
+  
+}
+.feature-card{
+  display: flex;
+  gap:20px;
+  justify-content: center;
+  margin-top:50px;
+  padding:10px 10px 10px 10px;
+
+
+
+
+}
+.feature-items{
+  margin-top: 20px;
+}
+
+.feature-card-UA{
+  height: 250px;
+  width: 250px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow:0 10px 20px rgba(0,0,0,.2);
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+
+}
+
+
+.Analysis-container{
+  display: flex;
+  margin-top: 150px;
+
+  gap:30%;
+  
+}
+
+.Analysis-left-container{
+
+  flex:1;
+  width: 50%;
+  margin-top: 30px;
+  /* margin-left: 15%; */
+  backface-visibility: hidden;
+  margin-left: 5%;
+
+  
+}
+
+/* 100px */
+.Analysis-img-container{
+ 
+    height: 400px;
+    width:400px;
+    background-color:darkblue;
+    margin-top: 100px;
+    margin-left: 15%;      
+    border-radius: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+  
+}
+.CNW{
+  width: 250px;
+  height: 170px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow:0 10px 20px rgba(0,0,0,.2);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+ right:-100px;
+ bottom:110px;
+
+
+
+ 
+}
+
+.CNW > .others{
+  
+  width: 100%;
+  height: 70px;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+
+  
+
+}
+.TG{
+  width: 500px;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow:0 10px 20px rgba(0,0,0,.2);
+  position: absolute;
+  top: -100px;
+
+  
+}
+.TG-img{
+  width:100%;
+height: 200px;
+}
+
+.SA{
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow:0 10px 20px rgba(0,0,0,.2);
+  position: relative;
+  left: -130px;
+  top:20px;
+
+
+
+}
+.SA-img{
+  width:100%;
+  height: 200px;
+}
+.others > .profile-1{
+  height: 20px;
+  width:20px;
+  border-radius: 100%;
+}
+.others >.profile-2{
+  height: 20px;
+  width:20px;
+  border-radius: 100%;
+}
+.others > .profile-3{
+  height: 20px;
+  width:20px;
+  border-radius: 100%;
+}
+.Analysis-container-right{
+  flex: 1;
+  width:50%;
+  padding-top: 10px;
+  padding-right: 5%;
+}
+.super {
+  color: blue;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.system {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.system-p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Fourth container */
+
+.Info-Container{
+  /* width:100%;
+  height:800px;
+  display: flex;
+  position: absolute;
+  margin: 30px;
+  margin-top: 15%; */
+  position: relative;
+  width: 100%;
+  padding: 4rem 2rem;
+  background: #fff;
+  z-index: 1;
+  display:flex;
+  gap:35px;
+  margin-top:15%;
+}
+.Info-Container-left{
+  flex:1;
+  width: 50%;
+  position: relative;
+  margin-left: 5%;
+  top:-60px;
+}
+.Info-Container-right{
+  flex:1;
+  width: 50%;
+  position: relative;
+  top:40px;
+}
+
+.img-containerB{
+  width:400px;
+  height:400px;
+  background-color: darkblue;
+  border-radius:220px;
+  position: relative;
+  
+}
+.Doc{
+  width:250px;
+  height:250px;
+  background-color: rgb(231, 247, 247);
+  border-radius: 10px;
+  position: absolute;
+  top:-80px;
+  left:-100px;
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
+  display: block;
+  bottom: 15%;
+
+}
+.Document-container h2{
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-left: 10px;
+
+}
+.Doc-A{
+  display: flex;
+  align-items: center;
+  width: 91%;
+  height: 50px;
+  margin-top: 20px;
+  padding-left: 20px;
+  gap:10px;
+  background-color: #fff;
+}
+
+.Doc-B{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  padding-left: 20px;
+  gap:10px;
+
+}
+
+.Doc-C{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  padding-left: 20px;
+  gap:10px;
+
+}
+
+.Doc-A h5{
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.Doc-B h5{
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.Doc-C h5{
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.Tutorial{
+  width:250px;
+  height:250px;
+  background-color: rgb(231, 247, 247);
+  border-radius: 10px;
+  position: absolute;
+  top:-80px;
+  right: -60px;
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+.contact{
+  width:250px;
+  height:250px;
+  background-color: rgb(231, 247, 247);
+  border-radius: 10px;
+  position: absolute;
+bottom: -80px;
+  right:75px;
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
+  display: block;
+
+}
+.ContactA{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 83%;
+  height: 70px;
+  padding:  0px 20px;
+  margin-top: 20px;
+  background-color: #ffffff;
+
+}
+.contact-img1{
+  width:70px;
+  height:65px;
+  border-radius: 100%;
+ 
+}
+
+
+
+
+
+
+
+/* .articles{
+  width:100%;
+  height:800px;
+  background-color: aliceblue;
+  /* display: flex;  */
+  /* margin-top:10%;
+
+}
+.articles h4{
+  color: blue;
+  text-align: center;
+  font-size:25px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  padding-top: 80px;
+}  */
+
+.articles {
+  width: 100%;
+  padding: 80px 20px;
+  /* background-color: aliceblue; */
+  margin-top: 5%;
+ 
+}
+
+.articles h4 {
+  color: blue;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Article Cards Container */
+
+.Articles-Card {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center; 
+
+  text-align: left; 
+  gap:5%;
+}
+
+/* Individual Article Card */
+ .Articles-items {
+   flex: 0 1 350px; 
+ /*This makes cards ~350px wide but allows them to shrink if needed */
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  gap:30px;
+
+  
+}
+
+/* .card-Item:hover {
+  transform: translateY(-5px);
+} */
+
+/* Article Card Image */
+.Articles-items > .image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Article Card Content */
+.Articles-items > h1 {
+  padding: 20px;
+  font-size: 15px;
+  color: #333;
+}
+
+.Articles-items h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.Articles-items p {
+  margin-bottom: 20px;
+  color:black;
+  line-height: 1.5;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.Articles-items > button {
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 10px;
+
+}
+
+.Articles-items > button:hover {
+  background-color: darkblue;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card-Item:hover {
+      gap: 20px;
+      padding: 10px;
+  }
+  
+  .card-Item {
+      flex: 0 1 100%;
+  }
+}
+
+.download-container{
+  width:100%;
+  height:500px;
+  display:flex;
+  margin-top:5%;
+  padding: 80px 20px;
+
+} 
+
+.download-container-left{
+  flex:1;
+  width: 600px;
+
+}
+.download-img-container{
+
+  width:400px;
+  height:300px;
+  border-radius:100%;
+  position:relative;
+  background-color: darkblue;
+  margin-top: 10%;
+
+}
+
+.download-img-container > .phone{
+
+  height: 500px;
+  width: 300px;
+  top: -140px;
+  left:50px;
+  position: absolute;
+}
+.download-container-right{
+  flex:1;
+  width: 600px;
+  
+}
+.download-img{
+  width: 200px;
+  height: 90px;
+}
+.download-btn{
+  gap:20px;
+  display: flex;
+}
+
+
+
+
+  
+
+.footer{
+  width:100%;
+  height:500px;
+  background-color: rgb(8, 14, 88);
+  border-radius: 0px 0px 10px 10px;
+
+}
+.footer-con{
+  width:100%;
+  height:400px;
+  background-color: rgb(8, 14, 88);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.tasking{
+  width:300px;
+  height:300px;
+  margin-bottom: 18px;
+}
+.About{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.About h2{
+
+  margin-top: 18px;
+  color: #ffffff;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.About h1{
+  margin-top: 18px;
+  color: #ffffff;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+  .icons-container{
+  width: 300px;
+  height: 100px;
+  margin-top: 10px;
+  display: flex; 
+   /* justify-content: space-evenly;  */
+   align-items: center; 
+
+}
+.fa-square-facebook{
+  color:#ffffff;
+  width:60px;
+  border-radius: 10px;
+
+}
+.fa-linkedin{
+  color: #ffffff;
+  width:60px;
+  padding: 10px;
+}
+.fa-square-twitter{
+  color:#ffffff;
+  width:60px;}
+
+
+
+  .About a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+ }
+ .About p{
+  color: #ffffff;
+  line-height: 30px;
+ }
+
+ .hr-con{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+hr{
+  width:1000px;
+}
+.hr-con p{
+  margin-top: 20px;
+  width: 540px;
+  font-size: 12px;
+  color: #b1b0b0;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-left: 400px;
+}
+
+
+/* Responsiveness */
+
+
+
+
+@media screen and (max-width: 480px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo {
+    margin-right: 0;
+    width: 40px;
+    height: 40px;
+  }
+
+  .Hero {
+    flex-direction: column;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .Hero-left, .Hero-right {
+    width: 80%;
+    flex: none;
+  }
+
+  .Hero-left > h1 {
+    font-size: 48px;
+  }
+
+  .img-container {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+  }
+
+  .MW-container, .KA-container, .CNW, .TG, .SA {
+    position: static;
+    margin: 20px auto;
+    width: 70%;
+  }
+
+  .Analysis-container {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+  }
+
+  .Analysis-left-container, .Analysis-container-right {
+    width: 100%;
+    margin-left: 0;
+    padding: 0 15px;
+  }
+
+  .Analysis-img-container {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+  }
+
+  .Info-Container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .Info-Container-left, .Info-Container-right {
+    width: 100%;
+    margin-left: 0;
+    top: 0;
+  }
+
+  .img-containerB, .Doc, .Tutorial, .contact {
+    position: static;
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .Articles-Card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Articles-items {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .feature-card {
+    flex-direction: column;
+    align-items: center;
+   
+  }
+
+  .feature-card-UA {
+    width: 90%;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+   
+  }
+
+  .download-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .download-container-left, .download-container-right {
+    width: 100%;
+  }
+
+  .download-img-container {
+    width: 250px;
+    height: 250px;
+  }
+
+  .footer-con {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tasking, .About {
+    width: 90%;
+    text-align: center;
+  }
+
+  .icons-container {
+    justify-content: center;
+  }
+
+  .hr-con hr, .hr-con p {
+    width: 90%;
+    margin-left: 0;
+  }
+}
+
+/* Tablet Devices (481px to 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .nav ul {
+    gap: 15px;
+  }
+
+  .Hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Hero-left, .Hero-right {
+    width: 90%;
+  }
+
+  .Hero-left > h1 {
+    font-size: 64px;
+  }
+
+  .Analysis-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .Analysis-left-container, .Analysis-container-right {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .Info-Container {
+    flex-direction: column;
+  }
+
+  .Info-Container-left, .Info-Container-right {
+    width: 90%;
+  }
+
+  .Articles-Card {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Articles-items {
+    flex-basis: 45%;
+    margin: 10px;
+  }
+
+  .feature-card{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .feature-card-UA{
+    flex-basis: 45%;
+    margin: 10px;
+    
+  }
+
+  .download-container {
+    flex-direction: column;
+  }
+
+  .download-container-left, .download-container-right {
+    width: 90%;
+  }
+}
+
+/* Desktop Devices (769px and above) */
+@media screen and (min-width: 769px) {
+  /* These are existing styles, but you can fine-tune as needed */
+  .nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .Hero, .Analysis-container, .Info-Container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .Articles-Card {
+    max-width: 1230px;
+    margin: 0 auto;
+  }
+
+  .feature-card{
+    max-width: 1230px;
+    margin: 0 auto;
+  }
+}
+
+/* Additional Global Responsive Tweaks */
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  overflow-x: hidden;
+}
+
